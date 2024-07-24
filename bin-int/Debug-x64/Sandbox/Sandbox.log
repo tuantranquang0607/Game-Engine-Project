@@ -1,3 +1,4 @@
 ﻿  SandboxApp.cpp
-     Creating library C:\Users\tranq\OneDrive\Personal Projects\Hazel\bin\Debug-x64\Sandbox\Sandbox.lib and object C:\Users\tranq\OneDrive\Personal Projects\Hazel\bin\Debug-x64\Sandbox\Sandbox.exp
+C:\Users\tranq\OneDrive\Personal Projects\Hazel\Hazel\src\Hazel\Log.h(27,42): warning C4251: 'Hazel::Log::s_CoreLogger': 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of 'Hazel::Log'
+C:\Users\tranq\OneDrive\Personal Projects\Hazel\Hazel\src\Hazel\Log.h(28,42): warning C4251: 'Hazel::Log::s_ClientLogger': 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of 'Hazel::Log'
   Sandbox.vcxproj -> C:\Users\tranq\OneDrive\Personal Projects\Hazel\bin\Debug-x64\Sandbox\Sandbox.exe
