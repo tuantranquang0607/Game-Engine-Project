@@ -1,9 +1,6 @@
 #pragma once
 
-#include "Hazel/Debug/Instrumentor.h"
-#include "Hazel/Core/Base.h"
-
-#include <functional>
+#include "Hazel/Core.h"
 
 namespace Hazel {
 
