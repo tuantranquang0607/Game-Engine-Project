@@ -1,9 +1,7 @@
 ﻿  Application.cpp
+C:\Users\tranq\OneDrive\Personal Projects\Hazel\Hazel\src\Hazel\Application.h(19,27): warning C4251: 'Hazel::Application::m_Window': 'std::unique_ptr<Hazel::Window,std::default_delete<Hazel::Window>>' needs to have dll-interface to be used by clients of 'Hazel::Application'
 C:\Users\tranq\OneDrive\Personal Projects\Hazel\Hazel\src\Hazel\Log.h(26,42): warning C4251: 'Hazel::Log::s_CoreLogger': 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of 'Hazel::Log'
 C:\Users\tranq\OneDrive\Personal Projects\Hazel\Hazel\src\Hazel\Log.h(27,42): warning C4251: 'Hazel::Log::s_ClientLogger': 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of 'Hazel::Log'
-  Log.cpp
-C:\Users\tranq\OneDrive\Personal Projects\Hazel\Hazel\src\Hazel\Log.h(26,42): warning C4251: 'Hazel::Log::s_CoreLogger': 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of 'Hazel::Log'
-C:\Users\tranq\OneDrive\Personal Projects\Hazel\Hazel\src\Hazel\Log.h(27,42): warning C4251: 'Hazel::Log::s_ClientLogger': 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of 'Hazel::Log'
+  WindowsWindow.cpp
+C:\Users\tranq\OneDrive\Personal Projects\Hazel\Hazel\src\Platform\Windows\WindowsWindow.h(6,10): error C1083: Cannot open include file: 'GLFW/glfw3.h': No such file or directory
   Generating Code...
-     Creating library ..\bin\Debug-windows-x86_64\Hazel\Hazel.lib and object ..\bin\Debug-windows-x86_64\Hazel\Hazel.exp
-  Hazel.vcxproj -> C:\Users\tranq\OneDrive\Personal Projects\Hazel\bin\Debug-windows-x86_64\Hazel\Hazel.dll
